@@ -1,0 +1,15 @@
+from bank import value
+
+
+def main():
+    test_greeting()
+
+
+def test_greeting():
+    assert value("Hello == 0")
+    assert value("Hey == 20")
+    assert value("What's up == 100")
+
+
+if __name__ == "__main__":
+    main()
